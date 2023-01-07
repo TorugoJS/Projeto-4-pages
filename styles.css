@@ -27,7 +27,7 @@ nav img {
 .nav-links {
   flex: 1;
   text-align: right;
-  display: none;
+  /* display: none; */
 }
 .nav-links ul li {
   list-style: none;
@@ -100,7 +100,7 @@ nav .fa {
 }
 
 /* media */
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .text-box h1 {
     font-size: 20px;
   }
@@ -113,6 +113,7 @@ nav .fa {
     background: #696969;
     height: 100vh;
     width: 200px;
+    display: none;
     top: 0;
     right: -200px;
     text-align: left;
@@ -205,6 +206,7 @@ h3 {
 
 .campus-col img {
   width: 100%;
+  display: block;
 }
 
 .layer {
@@ -237,4 +239,32 @@ h3 {
 .layer:hover h3 {
   bottom: 49%;
   opacity: 1;
+}
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities-col p {
+  padding: 0;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
 }
